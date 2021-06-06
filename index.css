@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    
+}
+h1{
+    color:#cd853f;
+    text-align: center;
+    size: 800px;
+    font-weight: bold;    
+}
+.slider{
+
+    width: 1200px;
+    height: 400px;
+    background:url(lit7.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite ;
+}
+@keyframes slide{
+    25%{
+    background:url(lit2.jpg )
+} 
+50%{
+    background:url(lit3.jpg)
+}
+75%{
+    background:url(lit5.jpg)}
+    100%{
+        background:url(lit6.jpg)
+    }
+    
+
+
+}
+h2{
+    color:#cd853f;
+    font-style: italic;
+
+}
+p{
+    color:#ffe4b5;
+    font-style: oblique;
+    font-size: 20px;
+}
+ol{
+    color: #cd853f;
+}
+h2{
+    color:#cd853f;
+    text-align: center;
+}
+li {
+    overflow: auto;
+    clear: both;
+    margin: 10px 0px 10px 0px;
+  }
+  img {
+    float: left;
+    margin: 0px 10px 20px 0px;
+    padding: 10px;
+    border-radius: 30px;
+  }
